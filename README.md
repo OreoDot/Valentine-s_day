@@ -13,7 +13,7 @@ Ask your special someone to be your Valentine with this fun, interactive webpage
 
 1. Copy `valentine-personalize.html`
 2. Open in CodePen (codepen.io/pen)
-3. Search for `PERSONALIZATION #1` through `#18`
+3. Search for `PERSONALIZATION #1` through `#18` (This instructions are commented in the code)
 4. Change the text, images, and music
 5. Share the link!
 
@@ -38,7 +38,16 @@ Ask your special someone to be your Valentine with this fun, interactive webpage
 
 ## 📸 Demo
 
-[Add your demo link or screenshot here]
+## 📸 Demo
+
+### Initial Question Screen
+![Valentine Question](screenshots/Screenshot_1.png)
+
+### Celebration Screen
+![Yes Response](screenshots/Screenshot_2.png)
+
+### Photo Gallery
+![Memories Gallery](screenshots/Screenshot_3.png)
 
 ## 🤝 Contributing
 
