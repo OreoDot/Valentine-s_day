@@ -25,6 +25,10 @@
             position: relative;
         }
 
+        .container.gallery-active {
+            margin: 0 auto;
+        }
+
         @keyframes gradientShift {
             0% { background-position: 0% 50%; }
             50% { background-position: 100% 50%; }
@@ -294,6 +298,9 @@
         .photo-gallery.active {
             display: block;
             animation: celebrationFade 0.6s ease;
+            max-height: 80vh;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
         }
 
         .photo-gallery h2 {
@@ -323,6 +330,10 @@
         .photo-item:nth-child(4) { animation-delay: 0.4s; }
         .photo-item:nth-child(5) { animation-delay: 0.5s; }
         .photo-item:nth-child(6) { animation-delay: 0.6s; }
+        .photo-item:nth-child(7) { animation-delay: 0.7s; }
+        .photo-item:nth-child(8) { animation-delay: 0.8s; }
+        .photo-item:nth-child(9) { animation-delay: 0.9s; }
+        .photo-item:nth-child(10) { animation-delay: 1.0s; }
 
         @keyframes photoFadeIn {
             from {
@@ -599,7 +610,7 @@
             <!-- PERSONALIZATION #8: CELEBRATION MESSAGE -->
             <!-- Change the message after they click Yes -->
             <!-- ============================================ -->
-            <p class="love-message">I can't believe you said yes! 😱💕<br>Happy Valentine's Day! 🦝❤️</p>
+            <p class="love-message">I can't believe you said yes! 😱💕<br>My ShuKushuKuBamBam! 🦝❤️</p>
             
             <!-- ============================================ -->
             <!-- PERSONALIZATION #9: SECRET BUTTON TEXT -->
@@ -617,7 +628,7 @@
             
             <div class="photos-grid">
                 <!-- ============================================ -->
-                <!-- PERSONALIZATION #11-16: PHOTOS & CAPTIONS -->
+                <!-- PERSONALIZATION #11-20: PHOTOS & CAPTIONS -->
                 <!-- Replace placeholder images with your own photos -->
                 <!-- Upload your photos to: imgur.com or catbox.moe -->
                 <!-- Then replace the src="..." with your image URL -->
@@ -626,38 +637,62 @@
                 
                 <!-- Photo 1 -->
                 <div class="photo-item">
-                    <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?w=400&h=300&fit=crop" alt="Us - Photo 1">
+                    <img src="https://i.postimg.cc/63CF6jWs/Whats-App-Image-2026-02-11-at-03-43-43.jpg" alt="Us - Photo 1">
                     <div class="photo-caption">Our First Adventure</div>
                 </div>
                 
                 <!-- Photo 2 -->
                 <div class="photo-item">
-                    <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?w=400&h=300&fit=crop" alt="Us - Photo 2">
+                    <img src="https://i.postimg.cc/R0kjB5BS/Whats-App-Image-2026-02-11-at-03-43-43-(1).jpg" alt="Us - Photo 2">
                     <div class="photo-caption">That Perfect Day</div>
                 </div>
                 
                 <!-- Photo 3 -->
                 <div class="photo-item">
-                    <img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=400&h=300&fit=crop" alt="Us - Photo 3">
-                    <div class="photo-caption">Always Laughing</div>
+                    <img src="https://i.postimg.cc/gJ31cSzW/Whats-App-Image-2026-02-11-at-03-43-43-(2).jpg" alt="Us - Photo 3">
+                    <div class="photo-caption">Goofy Me</div>
                 </div>
                 
                 <!-- Photo 4 -->
                 <div class="photo-item">
-                    <img src="https://images.unsplash.com/photo-1474552226712-ac0f0961a954?w=400&h=300&fit=crop" alt="Us - Photo 4">
-                    <div class="photo-caption">Beautiful Moments</div>
+                    <img src="https://i.postimg.cc/C1b9MPhT/Whats-App-Image-2026-02-11-at-03-43-43-(3).jpg" alt="Us - Photo 4">
+                    <div class="photo-caption">Effortlessly Beautiful</div>
                 </div>
                 
                 <!-- Photo 5 -->
                 <div class="photo-item">
-                    <img src="https://images.unsplash.com/photo-1495376037592-208615270cf6?w=400&h=300&fit=crop" alt="Us - Photo 5">
+                    <img src="https://i.postimg.cc/gJ31cSzz/Whats-App-Image-2026-02-11-at-03-43-44.jpg" alt="Us - Photo 5">
                     <div class="photo-caption">Making Memories</div>
                 </div>
                 
                 <!-- Photo 6 -->
                 <div class="photo-item">
-                    <img src="https://images.unsplash.com/photo-1518568814500-bf0f8d125f46?w=400&h=300&fit=crop" alt="Us - Photo 6">
+                    <img src="https://i.postimg.cc/xCLBjxfV/Whats-App-Image-2026-02-11-at-03-43-44-(1).jpg" alt="Us - Photo 6">
                     <div class="photo-caption">Forever & Always</div>
+                </div>
+
+                <!-- Photo 7 -->
+                <div class="photo-item">
+                    <img src="https://i.postimg.cc/63CF6jWB/Whats-App-Image-2026-02-11-at-03-43-44-(2).jpg" alt="Us - Photo 7">
+                    <div class="photo-caption">Sweet Moments</div>
+                </div>
+
+                <!-- Photo 8 -->
+                <div class="photo-item">
+                    <img src="https://i.postimg.cc/W30xpWNT/Whats-App-Image-2026-02-11-at-03-55-26-(1).jpg" alt="Us - Photo 8">
+                    <div class="photo-caption">Happy Times</div>
+                </div>
+
+                <!-- Photo 9 -->
+                <div class="photo-item">
+                    <img src="https://i.postimg.cc/yd026Q16/Whats-App-Image-2026-02-11-at-04-03-07.jpg" alt="Us - Photo 9">
+                    <div class="photo-caption">Love & Laughter</div>
+                </div>
+
+                <!-- Photo 10 -->
+                <div class="photo-item">
+                    <img src="https://i.postimg.cc/Px10f3Xt/Whats-App-Image-2026-02-11-at-04-03-07-(1).jpg" alt="Us - Photo 10">
+                    <div class="photo-caption">18th December 2022</div>
                 </div>
             </div>
         </div>
@@ -815,6 +850,8 @@
         doNotClickBtn.addEventListener('click', () => {
             celebration.style.display = 'none';
             photoGallery.classList.add('active');
+            document.body.classList.add('gallery-active');
+            document.querySelector('.container').classList.add('gallery-active');
         });
     </script>
 </body>
