@@ -44,7 +44,20 @@ A fun, interactive Valentine's Day proposal webpage with escaping buttons, backg
 - **Image Hosting**: [Postimg.cc](https://postimg.cc) (free, reliable)
 - **Music Hosting**: [Catbox.moe](https://catbox.moe) or any file host
 - **GIFs**: [Giphy](https://giphy.com) or [Tenor](https://tenor.com)
-- **Hosting**: [Vercel](https://vercel.com) (free, easy Git deployment)
+- **Hosting**: [Vercel](https://vercel.com) (free, easy Git deployment) or [GitHub Pages](https://pages.github.com) (free, requires GitHub account)
+
+### Hosting on GitHub Pages (Free)
+
+If you have a GitHub account, you can host this webpage for free using GitHub Pages:
+
+1. **Create a new repository** on GitHub (e.g., `valentine-proposal`)
+2. **Upload your files**: Add your customized `index.html` file to the repository
+3. **Enable Pages**: Go to your repository's **Settings** > **Pages**
+4. **Configure source**: Under "Source", select "Deploy from a branch" and choose the `main` branch
+5. **Save**: Click "Save" - your site will be live at `https://yourusername.github.io/repository-name/`
+6. **Share the link**: The URL will be available in the Pages section once deployed (usually takes 1-2 minutes)
+
+**Note**: Since this is a single HTML file, no build process is needed. Just upload and go!
 
 ## 📸 Live Demo
 
